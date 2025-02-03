@@ -1,3 +1,7 @@
 export TERM=xterm-256color
 cp .tmux.conf to home
 cp init.lua to ~/.config/nvim/
+cp .gitconfig to ~/.gitconfig
+
+X) sudo apt install luarocks
+X) Open Neovim, run :TSInstall lua

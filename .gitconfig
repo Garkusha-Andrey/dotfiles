@@ -1,0 +1,10 @@
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    br = branch
+    head = rev-list -n1 --abbrev-commit HEAD
+    hist = log --graph --abbrev-commit --date=short
+    tree = log --all --decorate --oneline --graph
+[core]
+    editor = nvim
